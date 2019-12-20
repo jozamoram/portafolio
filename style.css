@@ -1,76 +1,28 @@
-/* Estilos Generales  ~ @hspencer */
-
-@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:200,400,700,900&display=swap');
-
 body {
-    font-family: 'Hepta Slab', serif;
-    background-image: linear-gradient(#fafafa, #f7efe3);
-    color: #2e271c;
+    @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+    background-color: #F9EBEA;
+    color: #2E4053;
     margin: 0;
 }
-
 a {
-    color: #2d88ff;
+    color: #C0392B;
 }
 
-p {
-    text-align: justify;
-    line-height: 1.6em;
-    /* word-break: break-all; */
-    text-align: justify;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-}
+h1{
+font-family: 'Fjalla One', sans-serif;
+    /* margin-top: 50px; */
 
-ul, ol{
-    line-height: 1.5em;
+    margin-left: 20;
 }
+h2{
+font-family: 'Fjalla One', sans-serif;
+    /* margin-top: 50px; */
 
-h1 {
-    font-size: 3.4em;
-    line-height: 1em;
-    font-weight: 200;
-    text-shadow: 1px 1px 2px rgba(0,0,0,.1);
-    
+    margin-left: 20;
 }
+ol{
+font-family: 'Fjalla One', sans-serif;
+    /* margin-top: 50px; */
 
-h2, h3, h4{
-    margin-top: 2em;
-}
-
-.tagline a {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 30%;
-}
-
-.toc ol {
-    background-color:rgba(0, 0, 0, .06);
-    padding: 1em 0;
-    border-radius: .5ex;
-}
-
-.toc ol li {
-    list-style-position: inside;
-    margin-left: 2em;
-}
-
-.toc ol li a {
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#container {
-    margin: 3em auto;
-    width: 85%;
-    max-width: 600px;
-    /*text-shadow: 1px 1px 0 #343433;*/
-}
-
-footer {
-    text-align: center;
-    background-color: rgb(219, 205, 184);
-    font-size: 10px;
-    padding: 2em;
+    margin-left: 20;
 }
