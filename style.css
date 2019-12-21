@@ -1,28 +1,119 @@
 body {
-    @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
-    background-color: #F9EBEA;
+ 
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+    background-color: #111111;
     color: #2E4053;
-    margin: 0;
+    margin: 150;
+
+
 }
 a {
+     
     color: #C0392B;
 }
 
 h1{
-font-family: 'Fjalla One', sans-serif;
+     text-align;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: em;
+    
+font-family: 'Archivo Black', sans-serif;
     /* margin-top: 50px; */
 
     margin-left: 20;
 }
 h2{
-font-family: 'Fjalla One', sans-serif;
+     text-align;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 2em;
+    
+font-family: 'Archivo Black', sans-serif;
     /* margin-top: 50px; */
 
     margin-left: 20;
 }
 ol{
-font-family: 'Fjalla One', sans-serif;
+    
+     text-align;
+    background-color: rgb(255,255,255);
+    font-size: 14px;
+    padding: 2em;
+font-family: 'Archivo Black', sans-serif;
     /* margin-top: 50px; */
 
     margin-left: 20;
+}
+
+a {
+    color: #E74C3C;
+}
+
+p { background-color: rgb(255,255,255);
+    font-size: 15px;
+    
+    text-align: justify;
+    line-height: 1.6em;
+    /* word-break: break-all; */
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    margin-left: 20
+}
+
+ul, ol{
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 3.4em;
+    line-height: 1em;
+    font-weight: 200;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.1);
+    
+}
+
+h2, h3, h4{
+    margin-top: 1em;
+}
+
+.tagline a {
+    
+    
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30%;
+}
+
+.toc ol {
+    background-color:rgba(0, 0, 0, .06);
+    padding: 1em 0;
+    border-radius: .5ex;
+}
+
+.toc ol li {
+    list-style-position: inside;
+    margin-left: 5em;
+}
+
+.toc ol li a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#container {
+    margin: 3em auto;
+    width: 85%;
+    max-width: 600px;
+    /*text-shadow: 1px 1px 0 #343433;*/
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(255,255,255);
+    font-size: 10px;
+    padding: 2em;
+margin-left: 20
 }
